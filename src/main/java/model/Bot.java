@@ -60,7 +60,7 @@ public class Bot {
         return new int[]{bestScore, bestMove[0], bestMove[1]};
     }
 
-    // Returns true if the Tic Tac Toe board is full (i.e., there are no empty cells), false otherwise
+    // Returns true if Tic Tac Toe board is full (i.e., there are no empty cells), false otherwise
     private boolean isFull(char[][] board) {
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {

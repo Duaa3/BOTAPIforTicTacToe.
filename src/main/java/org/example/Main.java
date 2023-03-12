@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 // Define the base path for all endpoints in this controller
 @RequestMapping(path = "/api/bot")
 public class Main {
-    // Define the main method that will run the application
+    // Define main method that will run the application
         public static void main(String[] args) {
             SpringApplication.run(Main.class, args);
         }

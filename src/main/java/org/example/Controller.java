@@ -17,7 +17,7 @@ public class Controller {
             int col = i % 3;
             board[row][col] = boardString.charAt(i);
         }
-        // Create a new bot with the specified symbol and make a move on the board
+        // Create new bot with the specified symbol and make a move on the board
         Bot bot = new Bot(symbol);
         int[] move = bot.makeMove(board);
         board[move[0]][move[1]] = symbol;
